@@ -21,9 +21,11 @@
         <span id="author">Loading...</span>
 
         <div>
-          <button>New Quote</button>
+          <button onclick="getQuote(api_url)">New Quote</button>
 
-          <button id="icon-btn"><i class="fab fa-twitter"></i>Tweet</button>
+          <button id="icon-btn" onclick="tweet()">
+            <i class="fab fa-twitter"></i>Tweet
+          </button>
         </div>
       </div>
     </main>
